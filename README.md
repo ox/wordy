@@ -13,15 +13,15 @@ Example Usage
 
 ciphering (numbers to numerals)
 ---------------------------------
-  var wordy = require('wordy');
-  wordy.cipher(1463); //#=> 'OneThousandFourHundredSixtyThree'
+	var wordy = require('wordy');
+	wordy.cipher(1463); //#=> 'OneThousandFourHundredSixtyThree'
 
 deciphering (numerals to words)
 -------------------------------
-  var wordy = require('wordy');
-  wordy.decipher('OneThousandFourHundredSixtyThree') //#=> 1463
+	var wordy = require('wordy');
+	wordy.decipher('OneThousandFourHundredSixtyThree') //#=> 1463
 
 Installation
 ============
 
-  npm install wordy
+	npm install wordy

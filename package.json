@@ -1,0 +1,12 @@
+{
+  "name": "Wordy",
+  "version": "1.0.0",
+  "description": "Converts numbers into their english variants and back",
+  "keywords": ["words","numbers","english","numerals"],
+  "homepage": "http://github.com/ArtemTitoulenko/Wordy",
+  "author": "Artem Titoulenko <artem.titoulenko@gmail.com>",
+  "contributors": [],
+  "main": "./lib/wordy",
+  "directories": { "test": "./test" },
+  "engines": {"node": ">=0.2.6"}
+}

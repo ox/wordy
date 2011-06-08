@@ -11,15 +11,17 @@ security since robots can't read English that well (unless they too use Wordy).
 Example Usage
 =============
 
-//ciphering (numbers to numerals):
-var wordy = require('wordy');
-wordy.cipher(1463); //#=> 'OneThousandFourHundredSixtyThree'
+ciphering (numbers to numerals)
+---------------------------------
+  var wordy = require('wordy');
+  wordy.cipher(1463); //#=> 'OneThousandFourHundredSixtyThree'
 
-//deciphering (numerals to words):
-var wordy = require('wordy');
-wordy.decipher('OneThousandFourHundredSixtyThree') //#=> 1463
+deciphering (numerals to words)
+-------------------------------
+  var wordy = require('wordy');
+  wordy.decipher('OneThousandFourHundredSixtyThree') //#=> 1463
 
 Installation
 ============
 
-npm install wordy
+  npm install wordy
